@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pranshooverma.nowfloats_api_location.MainActivity">
+
+
+    <EditText
+        android:id="@+id/ip"
+        android:hint="Enter The Ip address for the location"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/map_intent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="See Location on the Map" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Search" />
+</RelativeLayout>
