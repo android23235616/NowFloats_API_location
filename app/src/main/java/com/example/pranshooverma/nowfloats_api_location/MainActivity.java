@@ -71,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject a=new JSONObject(response);
                     String lat=a.getString("latitude");
                     String lon=a.getString("longitude");
+
+                    loc.setText("Latitude = "+lat+"\n"+"Longitude = "+lon);
+
                     Intent fd=new Intent(getApplicationContext(),MapsActivity.class);
                     fd.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     Bundle bun=new Bundle();
