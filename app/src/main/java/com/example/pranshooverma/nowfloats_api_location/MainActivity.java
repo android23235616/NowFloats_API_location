@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-                map.setVisibility(View.VISIBLE);
+             //   map.setVisibility(View.VISIBLE);
                 loc.setVisibility(View.VISIBLE);
             }
         }, new Response.ErrorListener() {
